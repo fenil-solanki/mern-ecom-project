@@ -11,7 +11,7 @@ const Arrival = () => {
           </div>
         </div>
         <div className='py-8 px-0 sm:px-4 lg:px-0'>
-          <div className='grid grid-cols-2 gap-3 sm:grid-cols-4 xl:gap-3'>
+          <div className='grid grid-cols-2 gap-3 sm:grid-cols-4 xl:gap-3 px-4'>
             <div className='mx-auto mb-2 sm:mb-0'>
               <img src="arrival-1.png" alt="" />
               <p style={{color:"#3C4242"}} className='text-lg font-semibold my-5 lg:font-bold lg:text-xl'>Knitted Joggers</p>
