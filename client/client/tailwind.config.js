@@ -24,8 +24,8 @@ module.exports = {
       },
       container:{
         screens:{
-          sm:'100%',
-          md:'100%',
+          sm:'80%',
+          md:'80%',
           lg:'1024px',
           xl:'1536px',
         }
