@@ -4,7 +4,7 @@ import React from 'react'
 import Navbar from '../component/Navbar'
 import { useCartContext } from '@/context/CartContext'
 
-const page = () => {
+const Page = () => {
    const {isLoggedIn,userInfo,handleLogOut}=useUserContext()
    
    if(isLoggedIn===false){
@@ -23,4 +23,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
