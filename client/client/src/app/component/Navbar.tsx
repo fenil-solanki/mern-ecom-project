@@ -1,7 +1,8 @@
-
+"use client"
 
 import Link from 'next/link'
-import React,{useState} from 'react'
+import React from 'react'
+import {useState} from 'react'
 import {AiOutlineSearch} from 'react-icons/ai'
 import {AiOutlineHeart} from 'react-icons/ai'
 import {BsPersonCircle} from 'react-icons/bs'
