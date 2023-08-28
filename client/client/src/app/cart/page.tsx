@@ -1,4 +1,4 @@
-
+'use client'
 import { useCartContext } from '@/context/CartContext'
 import React, { useEffect, useState } from 'react'
 import Navbar from '../component/Navbar';
