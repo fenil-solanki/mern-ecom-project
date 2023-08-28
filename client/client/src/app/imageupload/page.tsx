@@ -125,7 +125,7 @@ return (
       <label htmlFor="style">Enter product dress style :</label>
       <input type="text" onChange={handleChange} name="style" /><br />
 
-      <label htmlFor="color">Enter product color :(enter with it's hexacode and seprated by (,))</label>
+      <label htmlFor="color">Enter product color :(enter with it&aposs hexacode and seprated by (,))</label>
       <input type="text" onChange={handleChange} name="color" required /><br />
 
       <input type="file" name="image" onChange={handleChange} multiple required />
