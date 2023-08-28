@@ -13,21 +13,21 @@ const Page = () => {
 
    
 
-  if(sessionStorage.getItem("user")?.length===0 || sessionStorage.getItem("user")===null || sessionStorage.getItem("user")===""){
-    return(
-      <>
-     <div>Please login to see your cart...</div>
-      </>
-    )
-  }
+  // if(sessionStorage.getItem("user")?.length===0 || sessionStorage.getItem("user")===null || sessionStorage.getItem("user")===""){
+  //   return(
+  //     <>
+  //    <div>Please login to see your cart...</div>
+  //     </>
+  //   )
+  // }
    
 
-  if(userCart.length==0 && (sessionStorage.getItem("user")?.length===0 || sessionStorage.getItem("user")===null || sessionStorage.getItem("user")==="")){
-    return(
-      <>
-        <div>No items in cart</div>
-      </> )
-  }
+  // if(userCart.length==0 && (sessionStorage.getItem("user")?.length===0 || sessionStorage.getItem("user")===null || sessionStorage.getItem("user")==="")){
+  //   return(
+  //     <>
+  //       <div>No items in cart</div>
+  //     </> )
+  // }
 
 
   return (
