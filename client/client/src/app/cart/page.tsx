@@ -6,7 +6,7 @@ import CartItem from '../component/CartItem';
 import { useUserContext } from '@/context/UserContext';
 import Link from 'next/link';
 
-const page = () => {
+const Page = () => {
     const {userCart}=useCartContext();
     const {isLoggedIn}=useUserContext()
     console.log(userCart)
@@ -111,4 +111,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
