@@ -14,7 +14,7 @@ const Footer = () => {
                             <li className="font-medium text-lg" style={{color:"#F6F6F6"}}>Contact Us</li>
                             <li className="font-medium text-lg" style={{color:"#F6F6F6"}}>Track Order</li>
                             <li className="font-medium text-lg" style={{color:"#F6F6F6"}}>Returns & Refunds</li>
-                            <li className="font-medium text-lg" style={{color:"#F6F6F6"}}>FAQ's</li>
+                            <li className="font-medium text-lg" style={{color:"#F6F6F6"}}>FAQ&aposs</li>
                             <li className="font-medium text-lg" style={{color:"#F6F6F6"}}>Career</li>
                         </ul>
                     </div>
@@ -25,7 +25,7 @@ const Footer = () => {
                         <li className="font-medium text-lg" style={{color:"#F6F6F6"}}>Contact Us</li>
                             <li className="font-medium text-lg" style={{color:"#F6F6F6"}}>Track Order</li>
                             <li className="font-medium text-lg" style={{color:"#F6F6F6"}}>Returns & Refunds</li>
-                            <li className="font-medium text-lg" style={{color:"#F6F6F6"}}>FAQ's</li>
+                            <li className="font-medium text-lg" style={{color:"#F6F6F6"}}>FAQ&aposs</li>
                             <li className="font-medium text-lg" style={{color:"#F6F6F6"}}>Career</li>
                         </ul>
 
@@ -35,7 +35,7 @@ const Footer = () => {
                         <ul>
                         <li className="font-medium text-lg" style={{color:"#F6F6F6"}}>Track Order</li>
                             <li className="font-medium text-lg" style={{color:"#F6F6F6"}}>Returns & Refunds</li>
-                            <li className="font-medium text-lg" style={{color:"#F6F6F6"}}>FAQ's</li>
+                            <li className="font-medium text-lg" style={{color:"#F6F6F6"}}>FAQ&aposs</li>
                             <li className="font-medium text-lg" style={{color:"#F6F6F6"}}>Career</li>
                             </ul>
                     </div>
