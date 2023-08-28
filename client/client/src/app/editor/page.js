@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 
-const page = () => {
+const Page = () => {
   const [image, setimage] = useState("")
   const handleSubmit=()=>{
     const data=new FormData()
@@ -24,4 +24,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
