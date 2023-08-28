@@ -1,4 +1,6 @@
-import React,{useState} from 'react'
+"use client"
+import React from 'react'
+import {useState} from 'react'
 import {RiDeleteBinLine} from 'react-icons/ri'
 import {FaPlus} from 'react-icons/fa'
 import {FaMinus} from 'react-icons/fa'
