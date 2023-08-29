@@ -3,7 +3,10 @@ import controller from '../controllers/posts';
 const ImageModel=require("../models/Image")
 const router = express.Router();
 
-router.get('/', controller.home);
+router.get('/', (req,res)=>{
+    res.send("Hello")
+}
+          )
 router.get('/finduser', controller.finduser);
 router.get('/finduseremail', controller.finduserByemail);
 
