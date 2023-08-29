@@ -4,10 +4,9 @@
   "description": "",
   "main": "source/server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node /server.ts",
-    "dev": "node /server.ts",
-    "build": "rm -rf build/ && prettier --write source/ && tsc"
+    
+    "start": "node server.ts"
+    
   },
   "keywords": [],
   "author": "",
