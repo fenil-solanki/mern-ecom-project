@@ -27,7 +27,7 @@ router.use(express.urlencoded({limit:"10mb",extended:true,parameterLimit:50000})
 // router.set('views', __dirname + '/views')
 router.use(bodyParser.json());
 
-
+console.log("Backend working...")
 /** RULES OF OUR API */
 router.use((req, res, next) => {
     // set the CORS policy
