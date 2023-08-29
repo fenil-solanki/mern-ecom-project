@@ -5,8 +5,8 @@
   "main": "source/server.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node source/server.ts",
-    "dev": "node source/server.ts",
+    "start": "node /server.ts",
+    "dev": "node /server.ts",
     "build": "rm -rf build/ && prettier --write source/ && tsc"
   },
   "keywords": [],
