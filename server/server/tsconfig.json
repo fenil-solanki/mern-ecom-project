@@ -3,8 +3,8 @@
         "forceConsistentCasingInFileNames": true,
         "module": "commonjs",
         "esModuleInterop": true,
-        "outDir": "./build",
-        // "rootDir": "./source",
+        //"outDir": "./build",
+        "rootDir": "server",
         "target": "es6",
         "skipLibCheck": true,
         "strict": true
