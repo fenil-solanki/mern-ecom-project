@@ -6,7 +6,7 @@
     "routes":[
         {
             "src":"/(.*)",
-            "dest":"./source/server.ts"
+            "dest":"/server.ts"
         }
     ]
 }
